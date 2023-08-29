@@ -18,6 +18,7 @@
 
   .profile p {
     font-weight: 500;
+    color: #eae3e0;
   }
 
 @media screen and (max-width: 380px) {

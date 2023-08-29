@@ -18,10 +18,10 @@
 
 .links-jobs ul li a {
 	backdrop-filter: blur(4px);
-	background: rgba(255, 255, 255, 0.05);
-	border: 1px solid rgb(240, 215, 167);
+	background: rgba(76, 75, 75, 0.516);
+	border: 1px solid #201e1d;
 	border-radius: 8px;
-	color: rgb(240, 215, 167);
+	color: #eae3e0;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
@@ -58,7 +58,7 @@
 	.links-jobs ul {
 		padding: 8px 0;
 		gap: 8px;
-	}
+	}#edf6ee
 	.links-jobs ul li a {
 		font-size: 1.2em;
 		padding: 16px 24px;
