@@ -9,7 +9,6 @@ import Contato from '../components/Contato';
 import Footer from '../components/Footer';
 import Fotos from '../components/Fotos';
 import LinksJobs from '../components/LinksJobs';
-import LinksSocials from '../components/LinksSocials';
 import Music from '../components/Music';
 import Profile from '../components/Profile';
 import JanelaModal from '../components/JanelaModal';
@@ -27,8 +26,7 @@ const Home = () => {
 			<Fotos />
 			<LinksJobs />
 			<Contato abrirModal={abrirModal} />
-			<JanelaModal show={show} fechaModal={fechaModal} />
-			<LinksSocials />
+			<JanelaModal show={show} fechaModal={fechaModal} />			
 			<Footer />
 		</div>
 	);

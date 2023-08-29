@@ -1,5 +1,5 @@
 .modal-header {
-	background: rgba(240, 214, 167, 0.5);
+	background:  #eae3e0;
 }
 
 .modal-header p {
@@ -10,7 +10,7 @@
 }
 
 .modal-body {
-	background: rgba(240, 214, 167, 0.5);
+	background: #eae3e0;
 }
 
 .modal-body .wpp {

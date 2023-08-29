@@ -9,6 +9,6 @@ export const images = [
     id: 2,
     name: 'mapa-de-palco',
     description: 'Mapa de Palco',
-    src: 'mapa-de-palco.jpg'
+    src: 'mapa-de-palco.pdf'
   }
 ]

@@ -20,32 +20,33 @@ const JanelaModal = ({ show, fechaModal }) => {
 	};
 
 	return (
-		<div className="janela-modal">
-			<Modal
-				show={show}
-				onHide={fechaModal}
-				centered={true}
-				size="sm"
-				animation={true}
-				fullscreen="sm"
-			>
-				<Modal.Header closeButton>
-					<Modal.Title>
-						Contatos:
-						<p>Clique no número desejado</p>
-					</Modal.Title>
-				</Modal.Header>
-				<Modal.Body>
-					<div className="wpp">
-						<a href="#" id="wpp1" onClick={sendMessageWpp}>
-							<FaWhatsapp className="fa-wpp"/> (xx) xxxxx-xxxx
-						</a>
-						<a href="#" id="wpp2" onClick={sendMessageWpp}>
-							<FaWhatsapp className="fa-wpp"/> (xx) xxxxx-xxxx
-						</a>
-					</div>
-				</Modal.Body>
-				{/* <Modal.Footer>
+    <div className="janela-modal">
+      <Modal
+        show={show}
+        onHide={fechaModal}
+        centered={true}
+        size="sm"
+        animation={true}
+        fullscreen="sm"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>
+            Contatos:
+            <p>Clique no número desejado</p>
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="wpp">
+            <a href="#" id="wpp1" onClick={sendMessageWpp}>
+              <FaWhatsapp className="fa-wpp" /> (31) 99779-8017
+            </a>{' '}
+            
+            <a href="#" id="wpp2" onClick={sendMessageWpp}>
+              <FaWhatsapp className="fa-wpp" /> (31) 99978-7227
+            </a>
+          </div>
+        </Modal.Body>
+        {/* <Modal.Footer>
 					<Button variant="secondary" onClick={fechaModal}>
 						Botão de fechar
 					</Button>
@@ -53,9 +54,9 @@ const JanelaModal = ({ show, fechaModal }) => {
 						Botão de salvar
 					</Button>
 				</Modal.Footer> */}
-			</Modal>
-		</div>
-	);
+      </Modal>
+    </div>
+  );
 };
 
 JanelaModal.propTypes = {
