@@ -13,10 +13,5 @@ export const gallery = [
 		id: 3,
 		src: 'photos/foto_3.jpg',
 		text: 'Foto 3',
-	},
-	{
-		id: 4,
-		src: 'photos/foto_4.jpg',
-		text: 'Foto 4',
-	},
+	}	
 ];

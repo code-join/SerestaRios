@@ -16,6 +16,7 @@
 @media screen and (max-width: 380px) {
 	.footer {
 		font-size: 0.7em;
+		margin: 20px
 	}
 	.footer a {
 		font-weight: 500;
@@ -25,6 +26,7 @@
 @media screen and (min-width: 380px) {
 	.footer {
 		font-size: 0.8em;
+		margin: 25px
 	}
 	.footer a {
 		font-weight: 500;
@@ -34,6 +36,7 @@
 @media screen and (min-width: 600px) {
 	.footer {
 		font-size: 0.9em;
+		margin: 30px
 	}
 	.footer a {
 		font-weight: 500;
